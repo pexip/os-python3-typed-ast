@@ -1,0 +1,26 @@
+Source: python3-typed-ast
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Section: python
+Testsuite: autopkgtest-pkg-python
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-all-dev
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python3-typed-ast
+Vcs-Git: https://salsa.debian.org/python-team/packages/python3-typed-ast.git
+Homepage: http://www.mypy-lang.org/
+Rules-Requires-Root: no
+
+Package: python3-typed-ast
+Architecture: any
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: AST with PEP 484 type comments support
+ A fork of the CPython 2.7 and 3.5 ast modules with the ability to parse
+ PEP 484 type comments. The primary goals of this package are correctness and
+ speed.

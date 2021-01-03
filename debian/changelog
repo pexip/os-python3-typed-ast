@@ -1,0 +1,103 @@
+python3-typed-ast (1.4.2-1) unstable; urgency=medium
+
+  [ Michael R. Crusoe ]
+  * Rules-Requires-Root: no
+  * Move source package to DPMT.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Michael R. Crusoe ]
+  * New upstream version
+  * Standards-Version: 4.5.1 (routine-update)
+  * debhelper-compat 13 (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Sun, 03 Jan 2021 14:49:40 +0100
+
+python3-typed-ast (1.4.1-1) unstable; urgency=medium
+
+  * New upstream version
+  * debhelper-compat 12
+  * Standards-Version: 4.4.1
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Wed, 22 Jan 2020 14:33:47 +0100
+
+python3-typed-ast (1.4.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Sat, 13 Jul 2019 14:29:34 +0200
+
+python3-typed-ast (1.3.1-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Fri, 08 Feb 2019 23:11:28 -0800
+
+python3-typed-ast (1.3.0-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Mon, 04 Feb 2019 07:49:08 -0800
+
+python3-typed-ast (1.2.0-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Thu, 17 Jan 2019 01:01:44 -0800
+
+python3-typed-ast (1.1.1-1) unstable; urgency=medium
+
+  * New upstream version
+  * debhelper 11
+  * Point Vcs fields to salsa.debian.org
+  * Standards-Version: 4.2.1
+  * Testsuite: autopkgtest-pkg-python
+  * Remove trailing whitespace in debian/control
+  * Drop ancient X-Python-Version field
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Sun, 23 Dec 2018 05:57:31 -0800
+
+python3-typed-ast (1.1.0-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Sat, 07 Oct 2017 10:06:39 -0700
+
+python3-typed-ast (1.0.4-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Fri, 23 Jun 2017 08:54:08 -0700
+
+python3-typed-ast (0.6.3-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Fri, 13 Jan 2017 06:44:28 -0800
+
+python3-typed-ast (0.6.1-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Sun, 09 Oct 2016 03:07:52 -0700
+
+python3-typed-ast (0.5.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version.
+  * Drop obsolete d/copyright entry.
+
+ -- Sascha Steinbiss <satta@debian.org>  Sat, 17 Sep 2016 15:00:03 +0000
+
+python3-typed-ast (0.5.5-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #834590)
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Mon, 15 Aug 2016 09:13:00 -0700
